@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Robotoregular' ;
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype") ;
+}
+
+@font-face {
+    font-family: 'Robotobold' ;
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype") ;
+}
+
+@font-face {
+    font-family: 'Robotoitalic' ;
+    src: url(../fonts/Roboto-LightItalic.ttf) format("truetype") ;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: #1f2937;
+}
+
+.header{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.brand span{
+    padding-left: 15px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: 'Robotobold', sans-serif;
+}
+
+.logo{
+    width: 100px;
+    padding-bottom: 5px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.links{
+    display: flex;
+    padding: 0;
+}
+
+.links li{
+    list-style: none;
+    padding: 10px;
+}
+
+.links li a:hover{
+    border: solid 1px #f9faf8;
+    padding: 5px;
+    transition: 0.4s;
+    background-color: #f9faf8;
+    color: #3882f6;
+    border-radius: 5px;
+}
+
+.links li a{
+    text-decoration: none;
+    font-family: 'Robotoregular', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+main{
+    background-color: #1f2937;
+}
+
+.show{
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    padding-top: 120px;
+}
+
+.main_text{
+    flex: 1;
+    padding-bottom: 15px;
+}
+
+.main_text h1{
+    font-family: 'Robotobold', sans-serif;
+    font-size: 48px;
+    color: #f9faf8;
+    padding-bottom: 15px;
+}
+
+.main_text p{
+    font-family: 'Robotoregular', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 15px;
+}
+
+.main_text button{
+    font-family: 'Robotoregular', sans-serif;
+    padding: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 10px;
+}
+
+.main_text button:hover{
+    background-color: #f9faf8;
+    color:#3882f6;
+    transition: 0.3s;
+}
+
+.main_image{
+    flex: 1;
+}
+
+.main_image img{
+    width: 100%;
+}
+
+.trainers{
+    background-color: #f9faf8 ;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 70px 10px;
+}
+
+.trainers h3{
+    padding-bottom: 40px;
+    font-family: 'Robotobold', sans-serif;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.trainers_pics img{
+    width: 200px;
+    height: 300px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.trainers_pics{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trainers_pics figure{
+    border-radius: 10px;
+}
+
+.trainers_pics figure:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s;
+}
+
+.trainers_pics div p:first-of-type{
+    font-weight: bold;
+}
+
+.trainers_pics div p{
+    font-family: 'Robotoregular', sans-serif;
+}
+
+.quote{
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    width: 100%;
+    padding: 110px 400px;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1f2937;
+    font-family:'Robotoitalic', sans-serif;
+}
+
+.quote span{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Robotobold', sans-serif;
+}
+
+.action{
+    background-color:#f9faf8;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action .sign-up{
+    width: 1000px;
+    margin: auto;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 150px;
+    border-radius: 10px;
+} 
+
+.action .sign-up div:nth-child(2) button:hover{
+    background-color:#f9faf8;
+    color:#3882f6;
+    border: 2px solid #3882f6 ;
+    transition: 0.4s;
+}
+
+.action .sign-up div p:first-child{
+    font-family: 'Robotobold', sans-serif;
+    color: #f9faf8;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.action .sign-up div p:nth-child(2){
+    font-family: 'Robotoregular', sans-serif;
+    color: #f9faf8;
+    padding-bottom: 5px;
+}
+
+.action .sign-up div:nth-child(2) button{
+    background-color: #3882f6;
+    padding:5px 20px;
+    color: #f9faf8;
+    border: 2px #f9faf8 solid;
+    border-radius: 5px;
+}
+
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-family: 'Robotoregular', sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Robotoregular' ;
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype") ;
+}
+@font-face {
+    font-family: 'Robotobold' ;
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype") ;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: #1f2937;
+}
+
+.header{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.brand span{
+    padding-left: 15px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: 'Robotobold', sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links{
+    display: flex;
+    padding: 0;
+}
+
+.links li{
+    list-style: none;
+    padding: 10px;
+}
+
+.links li a:hover{
+    border: solid 1px #f9faf8;
+    padding: 5px;
+    transition: 0.4s;
+    background-color: #f9faf8;
+    color: #3882f6;
+    border-radius: 5px;
+}
+
+.links li a{
+    text-decoration: none;
+    font-family: 'Robotoregular', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/about-page.jpg);
+    background-size: cover;
+}
+
+.about{
+    width: 1000px;
+    height: calc(100vh - 214px);
+    text-align: center;
+    position: relative;
+}
+
+.about::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e5e7eb;
+    opacity: 0.7;
+}
+
+.about h1{
+    position: relative;
+    padding: 10px;
+    font-family: 'Robotobold', sans-serif;
+    color: #1f2937;
+}
+
+.about p{
+    position: relative;
+    text-align: left;
+    padding: 10px 20px;
+    color: #1f2937;
+    font-family: 'Robotoregular', sans-serif;
+}
+
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-family: 'Robotoregular', sans-serif;
+}
