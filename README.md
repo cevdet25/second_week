@@ -1,2 +1,2 @@
-# second_week
+Website Link: https://cevdet25.github.io/second_week/
  
